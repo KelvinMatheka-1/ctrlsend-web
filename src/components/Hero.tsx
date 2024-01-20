@@ -12,14 +12,14 @@ export function Hero() {
           </h1>
           <p className="pt-6 text-base w-auto sm:w-10/12 md:w-10/12 dark:text-neutral-400">
           CtrlSend is a money transfer service that lets users control how their money is spent after it is transferred.
-
-It works by allowing users to send locked funds and setting specific conditions on their transfers, such as requiring the recipient to provide proof of purchase or legitimacy of something when the recipient sends a withdrawal request. Upon satisfaction, the sender can approve or reject the request. This in turn gives senders control over how their money is spent and also makes it easy for recipients to account for usage.
+          It works by allowing users to send locked funds and setting specific conditions on their transfers, such as requiring the recipient to provide proof of purchase or legitimacy of something when the recipient sends a withdrawal request. 
+          Upon satisfaction, the sender can approve or reject the request. This in turn gives senders control over how their money is spent and also makes it easy for recipients to account for usage.
           </p>
           <div className="flex flex-auto pt-10 gap-2 min-w-[350px] justify-center sm:justify-start">
             <div>
               <Link href="#services">
                 <button className="bg-black dark:bg-white text-white dark:text-black text-base rounded-full px-4 p-2 font-medium">
-                  Ver más
+                  View Demo
                 </button>
               </Link>
             </div>
@@ -27,7 +27,7 @@ It works by allowing users to send locked funds and setting specific conditions 
             <div>
               <Link href="https://github.com/humberni/halley/blob/main/README.md" target="_blank">
                 <button className="bg-rose-500 text-white text-base rounded-full px-4 p-2 font-medium">
-                  Documentación
+                  Documentation
                 </button>
               </Link>
             </div>
