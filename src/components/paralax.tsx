@@ -70,7 +70,7 @@ const Column: React.FC<ColumnProps> = ({ images, y }) => {
     <motion.div style={{ y }} className={styles.column}>
       {images.map((src, index) => (
         <div key={index} className={styles.imageContainer}>
-          <Image src={`/images/${src}`} fill alt="image" />
+          <Image src={`/images/parallax/${src}`} fill alt="image" />
         </div>
       ))}
     </motion.div>
