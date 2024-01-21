@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Home from './paralax'
 
 export function Hero() {
   return (
@@ -46,6 +47,7 @@ export function Hero() {
           />
         </div>
       </div>
+      <Home />
     </div>
   );
 }
