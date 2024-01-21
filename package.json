@@ -11,14 +11,19 @@
   "dependencies": {
     "@headlessui/react": "^1.7.4",
     "@heroicons/react": "^2.0.16",
+    "@studio-freight/lenis": "^1.0.34",
     "@tailwindcss/typography": "^0.5.8",
     "@vercel/analytics": "^0.1.11",
+    "framer-motion": "^10.18.0",
     "next": "^13.0.6",
     "next-themes": "^0.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.39.3",
-    "use-web3forms": "^1.2.1"
+    "use-web3forms": "^1.2.1",
+    "sass": "^1.69.5",
+    "motion": "^10.16.4",
+    "@userfront/toolkit": "^1.0.5"
   },
   "devDependencies": {
     "@types/node": "^18.11.9",

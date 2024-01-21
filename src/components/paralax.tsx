@@ -5,7 +5,7 @@ import styles from './components/page.module.scss';
 import { useTransform, useScroll, motion, MotionValue } from 'framer-motion';
 import { useRef } from 'react';
 import Lenis from '@studio-freight/lenis';
-import useDimension from './useDimension';
+import useDimension from './useDimension'
 
 const images: string[] = [
   "image.jpg",
