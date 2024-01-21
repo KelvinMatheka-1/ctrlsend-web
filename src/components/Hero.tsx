@@ -8,7 +8,7 @@ export function Hero() {
         <div className="pt-6 md:pt-32 justify-center text-center sm:justify-start sm:text-start">
           <h1 className="text-5xl font-bold">
             Welcome to <br />{" "}
-            <span className="text-rose-500 font-extrabold">CtrlSend</span>
+            <span className="text-green-500 font-extrabold">CtrlSend</span>
           </h1>
           <p className="pt-6 text-base w-auto sm:w-10/12 md:w-10/12 dark:text-neutral-400">
           CtrlSend is a money transfer service that lets users control how their money is spent after it is transferred.
@@ -26,7 +26,7 @@ export function Hero() {
 
             <div>
               <Link href="https://github.com/humberni/halley/blob/main/README.md" target="_blank">
-                <button className="bg-rose-500 text-white text-base rounded-full px-4 p-2 font-medium">
+                <button className="bg-green-500 text-white text-base rounded-full px-4 p-2 font-medium">
                   Documentation
                 </button>
               </Link>

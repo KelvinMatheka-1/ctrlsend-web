@@ -33,12 +33,12 @@ export default function Navbar() {
                   <Link href="/">
                     <Image
                       className="block h-8 w-auto"
-                      src="/images/logos/logo-rose.svg"
+                      src="/images/logos/ctrlsendlogo.png"
                       alt="Logo Your Company"
-                      width={150}
-                      height={150}
+                      width={180}
+                      height={180}
                       quality={75}
-                      sizes="100vw"
+                      sizes="150vw"
                     />
                   </Link>
                 </div>
