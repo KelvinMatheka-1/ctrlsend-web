@@ -40,21 +40,17 @@
   }
 }
 
-.animation {
-  white-space: nowrap;
-  overflow: hidden;
-  animation: scroll right 15s linear infinite;
-}
+// .animation {
+//   white-space: nowrap;
+//   overflow: hidden;
+//   animation: scroll right 15s linear infinite;
+// }
 
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%); /* Adjust this value to control the scroll speed */
-  }
-}
-
-// .spacer{
-//   height: 100vh;
+// @keyframes scroll {
+//   0% {
+//     transform: translateX(0);
+//   }
+//   100% {
+//     transform: translateX(-100%); /* Adjust this value to control the scroll speed */
+//   }
 // }
