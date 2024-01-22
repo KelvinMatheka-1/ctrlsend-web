@@ -10,18 +10,19 @@ import useDimension from './useDimension';
 const images: string[] = [
   "image.jpg",
   "image1.jpg",
+  "news2.jpg",
   "image2.jpg",
-  "image3.jpg",
-  "news.webp",
-  "image4.jpg",
-  "image5.jpg",
-  "image6.jpg",
+  "news1.jpg",
   "image7.jpg",
-  "image8.jpg",
+  "image4.jpg",
+  "news4.jpg",
+  "image6.jpg",
+  "image11.jpg",
+  "news.webp",
   "news1.jpg",
   "image9.jpg",
   "image10.jpg",
-  "image11.jpg",
+
 ];
 
 interface ColumnProps {
