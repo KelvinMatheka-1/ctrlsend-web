@@ -5,21 +5,21 @@ const services = [
     title: "The Problem We Solve",
     description:
       "Fraud, misuse, and lack of control leave both senders and recipients vulnerable. ",
-    image: "/images/services/1.svg",
+    image: "/images/services/problem.svg",
     alt: "Service description",
   },
   {
     title: "Our Unique Solution",
     description:
       "CtrlSend empowers senders to set conditions and approve/reject withdrawals, ensuring funds are used as intended. ",
-    image: "/images/services/2.svg",
+    image: "/images/services/solution.svg",
     alt: "Service description",
   },
   {
     title: "Market Opportunity",
     description:
       "The mobile money market is exploding, but trust remains a major hurdle. We address this critical gap with a solution tailored for both casual users and businesses. ",
-    image: "/images/services/3.svg",
+    image: "/images/services/market.svg",
     alt: "Service description",
   },
   {
@@ -33,7 +33,7 @@ const services = [
     title: "The Future of CtrlSend",
     description:
       "We aim to be the global leader in secure and transparent mobile money transfers.",
-    image: "/images/services/5.svg",
+    image: "/images/services/future.svg",
     alt: "Service description",
   },
   {
