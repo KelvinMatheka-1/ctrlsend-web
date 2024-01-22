@@ -1,8 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import Home from './paralax'
+import ReactFastMarquee from 'react-fast-marquee';
 
 export function Hero() {
+  
   return (
     <div className="bg-white dark:bg-neutral-900">
       <div className="max-w-7xl mx-auto pt-20 pb-16 px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2">
@@ -47,9 +49,10 @@ export function Hero() {
           />
         </div>
       </div>
-      <div>
-        <p className="text-green-500 font-extrabold">Unending cases of Fraud seem to always be the talk of the town</p>
-      </div>
+      <ReactFastMarquee  className="text-green-500 font-extrabold">
+       Unending cases of Fraud seem to always be the talk of the town 
+      </ReactFastMarquee>
+      
       <Home />
     </div>
   );
