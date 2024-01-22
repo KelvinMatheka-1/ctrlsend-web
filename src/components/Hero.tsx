@@ -47,6 +47,9 @@ export function Hero() {
           />
         </div>
       </div>
+      <div>
+        <p className="text-green-500 font-extrabold">Unending cases of Fraud seem to always be the talk of the town</p>
+      </div>
       <Home />
     </div>
   );

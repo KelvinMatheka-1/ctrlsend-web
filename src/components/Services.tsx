@@ -2,37 +2,37 @@ import Image from "next/image";
 
 const services = [
   {
-    title: "Dolorum molestiae",
+    title: "The Problem We Solve",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit laudantium",
+      "Fraud, misuse, and lack of control leave both senders and recipients vulnerable. ",
     image: "/images/services/1.svg",
     alt: "Service description",
   },
   {
-    title: "Commodi mollitia",
+    title: "Our Unique Solution",
     description:
-      "Nemo quos doloribus quo omnis mollitia nostrum excepturi impedit veniam ",
+      "CtrlSend empowers senders to set conditions and approve/reject withdrawals, ensuring funds are used as intended. ",
     image: "/images/services/2.svg",
     alt: "Service description",
   },
   {
-    title: "Neque numquam",
+    title: "Market Opportunity",
     description:
-      "Accusantium eius omnis minus debitis est odio earum labore ad itaque mollitia",
+      "The mobile money market is exploding, but trust remains a major hurdle. We address this critical gap with a solution tailored for both casual users and businesses. ",
     image: "/images/services/3.svg",
     alt: "Service description",
   },
   {
-    title: "Vero animi",
+    title: "Competitive Advantage",
     description:
-      "Dolores nemo labore soluta incidunt cumque repellat quod ducimus explicabo",
+      "Unlike competitors who focus on speed or convenience, CtrlSend prioritizes trust and control",
     image: "/images/services/4.svg",
     alt: "Service description",
   },
   {
-    title: "Repudiandae pariatur",
+    title: "The Future of CtrlSend",
     description:
-      "voluptatum ex molestiae quae alias quasi eum magnam maxime autem atque",
+      "We aim to be the global leader in secure and transparent mobile money transfers.",
     image: "/images/services/5.svg",
     alt: "Service description",
   },
