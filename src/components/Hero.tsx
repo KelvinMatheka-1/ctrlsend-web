@@ -50,7 +50,10 @@ export function Hero() {
         </div>
       </div>
       <ReactFastMarquee  className="text-green-500 font-extrabold">
-       Unending cases of Fraud seem to always be the talk of the town 
+       <div className="mr-10">Unending cases of Fraud seem to always be the talk of the town </div>
+       <div className="mr-10">Unending cases of Fraud seem to always be the talk of the town</div>
+       <div className="mr-10">Unending cases of Fraud seem to always be the talk of the town</div>
+       <div className="mr-10">Unending cases of Fraud seem to always be the talk of the town</div>
       </ReactFastMarquee>
       
       <Home />
