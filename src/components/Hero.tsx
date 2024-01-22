@@ -36,10 +36,11 @@ export function Hero() {
             </div>
           </div>
         </div>
+        
 
         <div className="flex items-center mt-12">
           <Image
-            src="/images/hero/hero.svg"
+            src="/images/hero/wallet.svg"
             alt="Image hero description"
             width={1025}
             height={662}
