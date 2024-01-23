@@ -11,29 +11,29 @@ const contents = [
       "Select locked funds transfer from the drop down",
       "Fill the recipient details and tap transfer",
     ],
-    image: "/images/step1.png",
+    image: "/images/features/dashboard.svg",
     order: false,
   },
   {
-    title: "Products",
+    title: "Requesting to use funds",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga natus at modi ea tempore sapiente optio, quas sint nobis pariatur.",
     features: [
-      "But I must explain to you how all this mistaken",
-      "Voluptatum deleniti atque corrupti quos",
-      "He endures pains to avoid worse pains",
+      "Tap on withdraw",
+      "Select and  double tap on the transaction you wan to widraw from to autofill details",
+      "Enter amount and reason to withdraw, then tap request funds",
     ],
     image: "/images/features/product.svg",
     order: true,
   },
   {
-    title: "Inventory",
+    title: "Approving or Rejecting withdraw requests",
     description:
       "Porta facilisis ullamcorper rutrum erat luctus aliquam phasellus pharetra fusce, aliquet montes turpis mus habitasse lectus lacinia.",
     features: [
-      "Sed ut perspiciatis unde omnis iste natus",
-      "Quis autem vel eum iure reprehenderit",
-      "Consequuntur magni dolores eos qui ratione",
+      "On the Homepage, tap Approve",
+      "Tap pending tab",
+      "Here you can approve or reject withdraw requests",
     ],
     image: "/images/features/inventory.svg",
     order: false,
