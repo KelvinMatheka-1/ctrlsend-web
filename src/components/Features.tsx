@@ -11,7 +11,7 @@ const contents = [
       "Lorem ipsum dolor sit amet consectetur",
       "Lacus eu mauris quisque tortor torquent",
     ],
-    image: "/images/features/step1.gif",
+    image: "./public/images",
     order: false,
   },
   {
