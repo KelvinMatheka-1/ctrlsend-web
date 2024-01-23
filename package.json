@@ -23,7 +23,9 @@
     "react-dom": "^18.2.0",
     "react-fast-marquee": "^1.6.3",
     "react-hook-form": "^7.39.3",
+    "react-slick": "^0.29.0",
     "sass": "^1.70.0",
+    "slick-carousel": "^1.8.1",
     "use-web3forms": "^1.2.1"
   },
   "devDependencies": {
