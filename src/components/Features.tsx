@@ -5,24 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const contents = [
-  {
-    title: "Initiating Locked fund transfer",
-    description:
-      "Euismod fames in felis ornare interdum phasellus imperdiet habitant, elementum leo lobortis facilisis suscipit nullam.",
-    features: [
-      "Tap on Transfer",
-      "Select locked funds transfer from the drop down",
-      "Fill the recipient details and tap transfer",
-    ],
-    carouselImages: [
-      "/images/step1.png",
-      "/images/step1.png",
-      "/images/step1.png",
-      "/images/step1.png",
-    ],
-    order: false,
-  },
-  // ... (other content items)
+  // Your content items
 ];
 
 export function Features() {
@@ -52,21 +35,7 @@ export function Features() {
                 content.order ? "order-1 md:order-2" : "order-1"
               }`}
             >
-              <h1 className="text-2xl font-bold">{content.title}</h1>
-              <p className="pt-6 pb-6 text-base dark:text-neutral-400">
-                {content.description}
-              </p>
-
-              <ul className="font-medium space-y-1 flex-1">
-                {content.features.map((feature) => (
-                  <li key={feature} className="leading-6 flex">
-                    <CheckIcon className="mt-2 w-3 h-3 text-rose-500 shrink-0" />
-                    <span className="ml-3 dark:text-neutral-400">
-                      {feature}
-                    </span>
-                  </li>
-                ))}
-              </ul>
+              {/* Your content details */}
             </div>
             <div
               className={`order-1 pt-8 md:pt-16 ${
@@ -75,6 +44,7 @@ export function Features() {
             >
               <div className="flex items-center">
                 <Slider {...sliderSettings}>
+                  {/* Map through the images for the carousel */}
                   {content.carouselImages.map((image, index) => (
                     <div key={index}>
                       <Image
