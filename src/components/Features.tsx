@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Slider from "react-slick";
 import { CheckIcon } from "@heroicons/react/24/solid";
 
 const contents = [
@@ -12,12 +11,7 @@ const contents = [
       "Select locked funds transfer from the drop down",
       "Fill the recipient details and tap transfer",
     ],
-    image:[
-      "/images/step1.png",
-      "/images/step1.jpg",
-      "/images/step1.jpg",
-      "/images/step1.jpg"
-    ],
+    image: "/images/step1.png",
     order: false,
   },
   {
@@ -90,7 +84,7 @@ export function Features() {
                 <Image
                   src={content.image}
                   alt="Image description"
-                  width={400}
+                  width={500}
                   height={200}
                   quality={75}
                   sizes="100vw"
