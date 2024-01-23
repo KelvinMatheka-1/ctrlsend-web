@@ -11,7 +11,7 @@ const contents = [
       "Lorem ipsum dolor sit amet consectetur",
       "Lacus eu mauris quisque tortor torquent",
     ],
-    image: "/images/features/dashboard.svg",
+    image: "/images/features/step1.gif",
     order: false,
   },
   {
@@ -44,7 +44,7 @@ export function Features() {
   return (
     <div className="bg-white dark:bg-neutral-900" id="features">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 gap-x-40 pt-16 pb-16">
-        <h2 className="text-4xl font-bold text-center text-green-500">Features</h2>
+        <h2 className="text-4xl font-bold text-center text-green-500">How It Works</h2>
         <p className="pt-6 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
           Halley nunc pulvinar lobortis duis. Leo mollis neque ullamcorper
           aliquam sem nullam, elementum vestibulum augue placerat.

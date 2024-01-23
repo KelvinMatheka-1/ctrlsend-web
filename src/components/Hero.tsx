@@ -11,7 +11,7 @@ export function Hero() {
         <div className="pt-6 md:pt-32 justify-center text-center sm:justify-start sm:text-start">
           <h1 className="text-5xl font-bold">
             Welcome to <br />{" "}
-            <span className="text-green-500 font-extrabold">CtrlSend</span>
+            <span className="text-green-500 font-extrabold ">CtrlSend</span>
           </h1>
           <p className="pt-6 text-base w-auto sm:w-10/12 md:w-10/12 dark:text-neutral-400">
           CtrlSend is a money transfer service that lets users control how their money is spent after it is transferred.
@@ -50,7 +50,7 @@ export function Hero() {
           />
         </div>
       </div>
-      <ReactFastMarquee  className="text-green-500 font-extrabold">
+      <ReactFastMarquee  className="text-green-500 font-extrabold" speed={20}>
        <div className="mr-10">Unending cases of Fraud seem to always be the talk of the town</div>
        <div className="mr-10">Unending cases of Fraud seem to always be the talk of the town</div>
        <div className="mr-10">Unending cases of Fraud seem to always be the talk of the town</div>
