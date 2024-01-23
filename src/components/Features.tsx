@@ -3,15 +3,15 @@ import { CheckIcon } from "@heroicons/react/24/solid";
 
 const contents = [
   {
-    title: "Dashboard",
+    title: "Initiating Locked fund transfer",
     description:
       "Euismod fames in felis ornare interdum phasellus imperdiet habitant, elementum leo lobortis facilisis suscipit nullam.",
     features: [
-      "Lacus eu mauris quisque tortor torquent",
-      "Lorem ipsum dolor sit amet consectetur",
-      "Lacus eu mauris quisque tortor torquent",
+      "Tap on Transfer",
+      "Select locked funds transfer from the drop down",
+      "Fill the recipient details and tap transfer",
     ],
-    image: "./public/images",
+    image: "/images/step1.gif",
     order: false,
   },
   {
@@ -46,8 +46,7 @@ export function Features() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 gap-x-40 pt-16 pb-16">
         <h2 className="text-4xl font-bold text-center text-green-500">How It Works</h2>
         <p className="pt-6 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-          Halley nunc pulvinar lobortis duis. Leo mollis neque ullamcorper
-          aliquam sem nullam, elementum vestibulum augue placerat.
+        Preventing Fraud and misuse has never been easier
         </p>
 
         {contents.map((content) => (
@@ -85,8 +84,8 @@ export function Features() {
                 <Image
                   src={content.image}
                   alt="Image description"
-                  width={1920}
-                  height={1080}
+                  width={200}
+                  height={200}
                   quality={75}
                   sizes="100vw"
                   priority
