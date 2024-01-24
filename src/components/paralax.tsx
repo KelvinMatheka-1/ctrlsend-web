@@ -15,7 +15,7 @@ const images: string[] = [
   "news1.jpg",
   "image4.jpg",
   "image9.jpg",
-  "Fraud.png",
+  "fraud.png",
   "image6.jpg",
   "image11.jpg",
   "news.webp",
