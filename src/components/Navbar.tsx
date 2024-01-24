@@ -8,8 +8,8 @@ import { XMarkIcon } from "@heroicons/react/24/solid";
 
 const navigation = [
   { name: "Home", href: "/", current: false },
-  { name: "Services", href: "#services", current: false },
-  { name: "Pricing", href: "#pricing", current: false },
+  { name: "Why CtrlSend", href: "#services", current: false },
+  // { name: "Pricing", href: "#pricing", current: false },
   { name: "Faq", href: "#faq", current: false },
   { name: "Contact", href: "#contact", current: false },
 ];

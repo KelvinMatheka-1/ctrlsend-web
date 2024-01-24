@@ -5,7 +5,7 @@ const contents = [
   {
     title: "Initiating Locked fund transfer",
     description:
-      "Euismod fames in felis ornare interdum phasellus imperdiet habitant, elementum leo lobortis facilisis suscipit nullam.",
+      "Secure your money with conditions: Set specific requirements for how your money can be spent before sending it. Think of it as building a fence around your funds for peace of mind.",
     features: [
       "Tap on Transfer",
       "Select locked funds transfer from the drop down",
@@ -17,7 +17,7 @@ const contents = [
   {
     title: "Requesting to use funds",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga natus at modi ea tempore sapiente optio, quas sint nobis pariatur.",
+      "The recipient asks your permission to use the funds based on the conditions you set. Transparency and accountability made easy.",
     features: [
       "Tap on withdraw",
       "Select and  double tap on the transaction you wan to widraw from to autofill details",
@@ -29,7 +29,7 @@ const contents = [
   {
     title: "Approving or Rejecting withdraw requests",
     description:
-      "Porta facilisis ullamcorper rutrum erat luctus aliquam phasellus pharetra fusce, aliquet montes turpis mus habitasse lectus lacinia.",
+      "Be the boss of your money: Decide if the conditions have been met and grant access to the funds, or send a friendly decline message for further clarification.",
     features: [
       "On the Homepage, tap Approve",
       "Tap pending tab",

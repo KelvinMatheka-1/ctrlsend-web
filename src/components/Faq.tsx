@@ -3,24 +3,24 @@ import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqitems = [
   {
-    question: "What is your refund policy?",
+    question: "What type of conditions can I set?",
     response:
-      "If youre unhappy with your purchase for any reason, email us within 90 days and well refund you in full, no questions asked.",
+      "You have flexibility to customize your conditions based on your needs. ",
   },
   {
-    question: "Do you offer technical support?",
+    question: "Is CtrlSend free to use?",
     response:
-      "No, we dont offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "We believe fair financial services should be accessible to everyone. While we have minimal transaction fees, they are significantly lower than traditional money transfer services. ",
   },
   {
-    question: "What is your refund policy? If youre unhappy with your purchase for any reasonIf youre unhappy with your purchase for any reasonIf youre unhappy with your purchase for any reason",
+    question: "Can I use CtrlSend to receive money with no conditions?",
     response:
-      "If youre unhappy with your purchase for any reason, email us within 90 days and well refund you in full, no questions asked.",
+      "Absolutely! CtrlSend offers both conditional and standard transfers. For regular sending needs, you can choose the standard option where your money arrives instantly without any restrictions. However, CtrlSend's unique power lies in the conditional transfer system, allowing you to send money with set conditions.",
   },
   {
-    question: "What forms of payment do you accept?",
+    question: "What devices and platforms does CtrlSend support?",
     response:
-      "You can use any debit or credit card to pay for a subscription. We secure your card details and process payments via Stripe. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "Currently, CtrlSend is available on Android and iOS smartphones through our user-friendly app. We're actively developing a web platform for additional accessibility.",
   },
 ];
 

@@ -84,18 +84,17 @@ export default function Footer() {
           <Link href="/">
             <Image
               className="h-8 w-auto"
-              src="/images/logos/logo-rose.svg"
+              src="/images/logos/ctrlsendlogo.png"
               alt="Logo Your Company"
-              width={150}
+              width={250}
               height={150}
               quality={75}
-              sizes="100vw"
+              sizes="50vw"
             />
           </Link>
 
           <p className="md:text-sm pt-4 w-auto sm:w-6/12 md:w-6/12 lg:w-8/12">
-            Halley is ipsum dolor sit amet consectetur adipisicing itaque enim
-            labore dolores culpa consequatur harum.
+            Aligining usage with intent
           </p>
 
           <div className="flex gap-2 pt-6 sm:pt-6 md:pt-6 lg:pt-12 max-w-[300px]">
