@@ -65,11 +65,11 @@ export default function Navbar() {
 
                 <div className="absolute inset-y-0 right-10 sm:right-0 flex items-center gap-2">
                   <Link
-                    href="https://github.com/humberni/halley"
+                    href="https://github.com/KelvinMatheka-1"
                     target="_blank"
                     className="hidden sm:block"
                   >
-                    <button className="bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 px-4 p-2 text-base font-medium dark:hover:bg-rose-500 hover:bg-rose-500 hover:text-white dark:hover:text-white rounded-full">
+                    <button className="bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 px-4 p-2 text-base font-medium dark:hover:bg-green-500 hover:bg-green-500 hover:text-white dark:hover:text-white rounded-full">
                       GitHub
                     </button>
                   </Link>

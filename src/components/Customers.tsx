@@ -41,34 +41,34 @@ const customers = [
 ]
 
 export default function Customers() {
-    return (
-        <div className="bg-white dark:bg-neutral-900 w-full px-4 pt-16 pb-16" id="faq">
-            <h2 className="text-4xl font-bold text-center">
-                Future Partnerships
-            </h2>
+    // return (
+    //     <div className="bg-white dark:bg-neutral-900 w-full px-4 pt-16 pb-16" id="faq">
+    //         <h2 className="text-4xl font-bold text-center">
+    //             Future Partnerships
+    //         </h2>
 
-            <p className="pt-6 pb-8 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit nam maxime quas fugiat tempore blanditiis, eveniet quia accusantium.
-            </p>
-            <div className="mx-auto w-full max-w-4xl bg-white dark:bg-transparent">
-                <div className="text-center justify-center items-center grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6">
-                    {customers.map((item) => (
-                        <Link key={item.name} href={item.href} target="_blank">
-                            <Image
-                                className="h-10 w-auto mt-6 justify-center text-center mx-auto hover:scale-110 transition"
-                                src={item.src}
-                                alt={item.alt}
-                                width={150}
-                                height={150}
-                                quality={75}
-                                sizes="100vw"
-                            />
-                        </Link>
-                    ))}
-                </div>
-            </div>
-        </div>
+    //         <p className="pt-6 pb-8 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
+    //             Lorem ipsum dolor sit amet consectetur adipisicing elit nam maxime quas fugiat tempore blanditiis, eveniet quia accusantium.
+    //         </p>
+    //         <div className="mx-auto w-full max-w-4xl bg-white dark:bg-transparent">
+    //             <div className="text-center justify-center items-center grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6">
+    //                 {customers.map((item) => (
+    //                     <Link key={item.name} href={item.href} target="_blank">
+    //                         <Image
+    //                             className="h-10 w-auto mt-6 justify-center text-center mx-auto hover:scale-110 transition"
+    //                             src={item.src}
+    //                             alt={item.alt}
+    //                             width={150}
+    //                             height={150}
+    //                             quality={75}
+    //                             sizes="100vw"
+    //                         />
+    //                     </Link>
+    //                 ))}
+    //             </div>
+    //         </div>
+    //     </div>
 
-    );
+    // );
 }
 
