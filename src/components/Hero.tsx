@@ -28,7 +28,11 @@ export function Hero() {
             </div>
 
             <div>
-
+              <Link href="https://github.com/humberni/halley/blob/main/README.md" target="_blank">
+                <button className="bg-green-500 text-white text-base rounded-full px-4 p-2 font-medium">
+                  Documentation
+                </button>
+              </Link>
             </div>
           </div>
         </div>
