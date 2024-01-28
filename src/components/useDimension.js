@@ -1,9 +1,12 @@
-"use client"
 const {useEffect, useState, use } = require("react")
 
 const useDimension = () => {
   const [dimension, setDimension] = useState({width: 0, height: 0})
   
+  const updateDimension = () => {
+    const {innerWidth, innerHeight} = window;
+    setDimension({width:innerWidth, height:innerHeight});
+  }
 
   useEffect( () => {
     updateDimension();
