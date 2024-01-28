@@ -1,3 +1,5 @@
+"use client"
+const {useEffect, useState, use } = require("react")
 
 const useDimension = () => {
   const [dimension, setDimension] = useState({width: 0, height: 0})
