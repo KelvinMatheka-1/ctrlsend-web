@@ -81,13 +81,17 @@ export default function Footer() {
     <footer className="bg-neutral-900 text-neutral-300 dark:text-neutral-400">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-12 pb-12 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5">
         <div className="col-span-2 sm:col-span-3 md:col-span-3 lg:col-span-2 2xl:col-span-2">
-        <Link href="/">
-          <img
-            src="/images/logos/101svgdark.svg"
-            alt="Logo Your Company"
-            style={{ width: "300px", height: "200px" }} // Adjust width and height as needed
-          />
-        </Link>
+          <Link href="/">
+            <Image
+              className="h-14 w-auto"
+              src="/images/logos/101svgdark.svg"
+              alt="Logo Your Company"
+              width={250}
+              height={150}
+              quality={75}
+              sizes="50vw"
+            />
+          </Link>
 
           <p className="md:text-sm pt-4 w-auto sm:w-6/12 md:w-6/12 lg:w-8/12">
             Aligining usage with intent
