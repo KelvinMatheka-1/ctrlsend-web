@@ -84,7 +84,7 @@ export default function Footer() {
           <Link href="/">
             <Image
               className="h-14 w-auto"
-              src="/images/logos/101svgdark.svg"
+              src="/images/logos/ctrlsendlogo.png"
               alt="Logo Your Company"
               width={250}
               height={150}
