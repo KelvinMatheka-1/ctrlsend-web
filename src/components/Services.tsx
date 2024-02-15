@@ -1,6 +1,48 @@
 import Image from "next/image";
 
-
+const services = [
+  {
+    title: "The Problem We Solve",
+    description:
+      "Fraud, misuse, and lack of control leave both senders and recipients vulnerable. ",
+    image: "/images/services/problem.svg",
+    alt: "Service description",
+  },
+  {
+    title: "Our Unique Solution",
+    description:
+      "CtrlSend empowers senders to set conditions and approve/reject withdrawals, ensuring funds are used as intended. ",
+    image: "/images/services/solution2.svg",
+    alt: "Service description",
+  },
+  {
+    title: "Market Opportunity",
+    description:
+      "The mobile money market is exploding, but trust remains a major hurdle. We address this critical gap with a solution tailored for both casual users and businesses. ",
+    image: "/images/services/market.svg",
+    alt: "Service description",
+  },
+  {
+    title: "Competitive Advantage",
+    description:
+      "Unlike competitors who focus on speed or convenience, CtrlSend prioritizes trust and control",
+    image: "/images/services/advantage.svg",
+    alt: "Service description",
+  },
+  {
+    title: "The Future of CtrlSend",
+    description:
+      "We aim to be the global leader in secure and transparent mobile money transfers.",
+    image: "/images/services/future.svg",
+    alt: "Service description",
+  },
+  {
+    title: "Pivoting",
+    description:
+      "Say goodbye to the hassle of sending money back and forth",
+    image: "/images/services/6.svg",
+    alt: "Service description",
+  },
 ];
 export function Services() {
   return (
