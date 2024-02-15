@@ -37,9 +37,9 @@ const services = [
     alt: "Service description",
   },
   {
-    title: "Placeat voluptas",
+    title: "Pivoting",
     description:
-      "vitae iure impedit magni consequuntur nihil consectetur laboriosam perspiciatis",
+      "Say goodbye to the hassle of sending money back and forth",
     image: "/images/services/6.svg",
     alt: "Service description",
   },
