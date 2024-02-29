@@ -11,7 +11,7 @@ const services = [
   {
     title: "Our Unique Solution",
     description:
-      "CtrlSend empowers senders to set conditions and approve/reject withdrawals, ensuring funds are used as intended. ",
+      "Unlike services where control is lost after funds are sent, CtrlSend allows recipients to spend directly from the designated portion of your wallet while you retain the option to monitor and even cancel transactions in real-time if needed",
     image: "/images/services/solution2.svg",
     alt: "Service description",
   },
@@ -36,13 +36,13 @@ const services = [
     image: "/images/services/future.svg",
     alt: "Service description",
   },
-  {
-    title: "Pivoting",
-    description:
-      "Say goodbye to the hassle of sending money back and forth",
-    image: "/images/services/6.svg",
-    alt: "Service description",
-  },
+  // {
+  //   title: "Pivoting",
+  //   description:
+  //     "Say goodbye to the hassle of sending money back and forth",
+  //   image: "/images/services/6.svg",
+  //   alt: "Service description",
+  // },
 ];
 export function Services() {
   return (

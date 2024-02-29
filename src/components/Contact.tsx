@@ -82,7 +82,7 @@ export default function Contact() {
 
           <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-neutral-400">
             <EnvelopeIcon className="w-4 h-4" />
-            <a href="mailto:hello@halley.vercel.app">contact@ctrlsend.com</a>
+            <a href="mailto:hello@halley.vercel.app">ctrlsend2@gmail.com</a>
           </div>
 
           <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-neutral-400">

@@ -3,9 +3,9 @@ import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqitems = [
   {
-    question: "What type of conditions can I set?",
+    question: "Can i add multiple users in my wallet",
     response:
-      "You have flexibility to customize your conditions based on your needs. ",
+      "Yes! You can grant access to several individuals, ensuring they only have access to the designated funds and spending limits you set",
   },
   {
     question: "Is CtrlSend free to use?",

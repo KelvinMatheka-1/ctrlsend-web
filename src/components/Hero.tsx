@@ -14,9 +14,7 @@ export function Hero() {
             <span className="text-green-500 font-extrabold ">CtrlSend</span>
           </h1>
           <p className="pt-6 text-base w-auto sm:w-10/12 md:w-10/12 dark:text-neutral-400">
-          CtrlSend is a money transfer service that lets users control how their money is spent after it is transferred.
-          It works by allowing users to send locked funds and setting specific conditions on their transfers, such as requiring the recipient to provide proof of purchase or legitimacy of something when the recipient sends a withdrawal request. 
-          Upon satisfaction, the sender can approve or reject the request. This in turn gives senders control over how their money is spent and also makes it easy for recipients to account for usage.
+          Have you ever been concerned about losing control of your money after sending it to someone? Worry no more, CtrlSend is a secure mobile money service that allows you to share a portion of your wallet directly with the recipient, set spending limits, and receive notifications when and what the money is spent on, all in real time, with the option to suspend a transaction if you suspect suspicious activity or misuse. CtrlSend gives you the confidence that they will only spend what you authorize, even after the money is transferred.
           </p>
           <div className="flex flex-auto pt-10 gap-2 min-w-[350px] justify-center sm:justify-start">
             <div>

@@ -3,37 +3,37 @@ import { CheckIcon } from "@heroicons/react/24/solid";
 
 const contents = [
   {
-    title: "Initiating Locked fund transfer",
+    title: "Adding user to your wallet",
     description:
-      "Secure your money with conditions: Set specific requirements for how your money can be spent before sending it. Think of it as building a fence around your funds for peace of mind.",
+      "Secure your money with conditions: Set specific requirements for how, when and why your money can be spent . Think of it as building a fence around your funds for peace of mind.",
     features: [
-      "Tap on Transfer",
-      "Select locked funds transfer from the drop down",
-      "Fill the recipient details and tap transfer",
+      "Tap on Give access",
+      "Fill the recipient details and tap Grant access",
+      "Enter spending limit"
     ],
     image: "/images/features/dashboard.svg",
     order: false,
   },
   {
-    title: "Requesting to use funds",
+    title: "Using funds directly from the wallet given access to",
     description:
-      "The recipient asks your permission to use the funds based on the conditions you set. Transparency and accountability made easy.",
+      " maintain control over your main wallet while empowering the recipient to use the designated funds conveniently and responsibly. Transparency and accountability made easy.",
     features: [
-      "Tap on withdraw",
-      "Select and  double tap on the transaction you wan to widraw from to autofill details",
-      "Enter amount and reason to withdraw, then tap request funds",
+      "Tap on wallets accessible",
+      "Enter payment or recipient details",
+      "Tap pay/send",
     ],
     image: "/images/features/product.svg",
     order: true,
   },
   {
-    title: "Approving or Rejecting withdraw requests",
+    title: "Approving or Suspending transactions",
     description:
-      "Be the boss of your money: Decide if the conditions have been met and grant access to the funds, or send a friendly decline message for further clarification.",
+      "Transparency and accountability made easy, recieve notifications on what the funds are being spent on and be the boss of your money by approving or suspending th transaction",
     features: [
-      "On the Homepage, tap Approve",
-      "Tap pending tab",
-      "Here you can approve or reject withdraw requests",
+      "On the Homepage, tap on transactions",
+      "Tap pon the Approve tab",
+      "Here you can approve or reject a transaction",
     ],
     image: "/images/features/inventory.svg",
     order: false,
