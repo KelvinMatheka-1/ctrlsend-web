@@ -83,11 +83,11 @@ export default function Footer() {
         <div className="col-span-2 sm:col-span-3 md:col-span-3 lg:col-span-2 2xl:col-span-2">
           <Link href="/">
             <Image
-              className="h-14 w-auto"
-              src="/images/logos/ctrlsendlogo.png"
+              className="h-15 w-15"
+              src="/images/logos/ctrlsendlogo-aidark.png"
               alt="Logo Your Company"
-              width={250}
-              height={150}
+              width={100}
+              height={100}
               quality={75}
               sizes="50vw"
             />
