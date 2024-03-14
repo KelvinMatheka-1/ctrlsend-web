@@ -18,7 +18,7 @@ export function Hero() {
           </p>
           <div className="flex flex-auto pt-10 gap-2 min-w-[350px] justify-center sm:justify-start">
             <div>
-              <Link href="#services">
+              <Link href="https://www.canva.com/design/DAF_YrecgBo/B1KggOEaNgLROJCC3Um-mw/watch">
                 <button className="bg-black dark:bg-white text-white dark:text-black text-base rounded-full px-4 p-2 font-medium">
                   View Demo
                 </button>
@@ -40,13 +40,14 @@ export function Hero() {
           <Image
             src="/images/hero/wallet.svg"
             alt="Image hero description"
-            width={1025}
-            height={662}
+            width={1000} // Adjusted width
+            height={1412} // Adjusted height to maintain aspect ratio
             quality={75}
             sizes="100vw"
             priority
           />
         </div>
+
       </div>
       <ReactFastMarquee  className="text-green-500 font-extrabold" speed={20}>
        <div className="mr-10">Unending cases of Fraud seem to always be the talk of the town</div>
